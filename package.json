@@ -1,0 +1,45 @@
+{
+  "name": "angular-blog",
+  "version": "1.0.0",
+  "description": "Simple blog, with a node.js and angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SillyRecon/angular-blog.git"
+  },
+  "author": "Louis Hamilton",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "chalk": "*",
+    "express-session": "*",
+    "nodemon": "*",
+    "yarn": "*",
+    "mongoose": "*",
+    "connect-mongo": "*",
+    "bcrypt": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*",
+    "concurrently": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/SillyRecon/angular-blog/issues"
+  },
+  "homepage": "https://github.com/SillyRecon/angular-blog#readme"
+}
